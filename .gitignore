@@ -1,0 +1,29 @@
+# Restricted source data
+inputs/
+data/raw/
+data/private/
+*.dat
+*.dat.gz
+*.zip
+
+# Python environments and cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Credentials and environment variables
+.env
+.env.*
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
