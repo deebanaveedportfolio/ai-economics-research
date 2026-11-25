@@ -1,18 +1,30 @@
 # Generative AI and the Early-Career Labor Market
-
 ### The Role of Occupational Learning Intensity
 
-## Research Overview
+**Independent Empirical Research | AI Economics | Labor Economics**
 
-This project investigates whether occupational learning
+[Read the Research Paper](AI_Economics_Writing_Sample.pdf) ·
+[Source Code](src/) ·
+[Empirical Results](results/) ·
+[Data Documentation](data/)
+
+---
+
+## Abstract
+
+This study investigates whether occupational learning
 intensity moderates the relationship between generative
-AI exposure and early-career employment.
+AI exposure and early-career employment composition.
 
-The research extends existing work on AI exposure and
-labor market outcomes by examining whether occupations
-with greater opportunities for knowledge acquisition
-and skill development exhibit different employment
-patterns following the emergence of generative AI.
+Combining labor market microdata, occupational AI exposure
+measures, and occupational characteristics, the analysis
+examines whether employment patterns differ across
+occupations with varying opportunities for knowledge
+acquisition and skill development.
+
+The study contributes to the emerging literature on
+AI-mediated labor market adjustment by examining
+occupational learning as a potential moderating mechanism.
 
 ## Research Question
 
@@ -20,43 +32,99 @@ Does occupational learning intensity moderate the
 relationship between generative AI exposure and
 early-career employment composition?
 
+## Research Contribution
+
+- Examines occupational learning intensity as a
+  potential dimension of labor market adjustment to AI.
+- Integrates occupational exposure measures with
+  employment and occupational characteristics.
+- Evaluates heterogeneous employment patterns through
+  panel-data econometrics.
+- Reports statistical uncertainty and sensitivity
+  across alternative specifications.
+
+## Empirical Results
+
+### Regression Estimates and Robustness
+
+![Regression estimates](figures/estimates.png)
+
+[Download regression results](results/results.csv)
+
+### Dynamic Employment Patterns
+
+![Event-study estimates](figures/event.png)
+
+[Download event-study results](results/event.csv)
+
 ## Data Sources
 
-- IPUMS Current Population Survey (CPS)
-- Anthropic Economic Index
-- O*NET Occupational Database
-- U.S. Census occupational classification crosswalks
+| Source | Research Application |
+|---|---|
+| IPUMS CPS | Employment and demographic measures |
+| Anthropic Economic Index | Occupational AI exposure |
+| O*NET | Occupational learning characteristics |
+| U.S. Census Bureau | Occupational harmonization |
 
-## Empirical Approach
+See the [data documentation](data/) for access information.
 
-- Occupational exposure measurement
+## Empirical Methodology
+
+- Occupational classification harmonization
 - Occupational learning intensity measurement
 - Employment composition analysis
-- Panel-data econometrics
-- Fixed-effects regression
-- Robustness and sensitivity analysis
+- Panel-data regression
+- Occupation and time fixed effects
+- Occupation-clustered standard errors
+- Dynamic interaction analysis
+- Robustness and placebo specifications
 
-## Research Significance
+## Repository Structure
 
-Understanding how AI affects early-career employment
-has implications for human capital formation, workforce
-development, occupational mobility, and economic policy.
+| Component | Description |
+|---|---|
+| `src/` | Python research implementation |
+| `results/` | Statistical estimates |
+| `figures/` | Research visualizations |
+| `data/` | Data sources and access documentation |
+| `requirements.txt` | Python dependencies |
 
-This project examines occupational learning as a
-potential dimension of labor market adjustment to AI.
+## Technical Environment
 
-## Research Integrity
+Python, pandas, NumPy, SciPy, statsmodels, and matplotlib.
 
-The analysis distinguishes statistical associations
-from causal effects and recognizes the limitations
-of occupational proxies for individual skill formation.
+Install the listed dependencies using:
 
-Research implementation is disclosed.
-Restricted source microdata are not distributed.
+    pip install -r requirements.txt
+
+## Interpretation and Limitations
+
+The analysis estimates statistical associations rather
+than identified causal effects.
+
+Occupational learning characteristics are proxies for
+learning opportunities, not direct measurements of
+individual human capital accumulation.
+
+Employment composition should not be interpreted as a
+direct measure of hiring, displacement, or unemployment.
+
+## Reproducibility and Research Integrity
+
+Source code, statistical outputs, and research figures
+are provided for methodological transparency.
+
+Independent end-to-end replication remains outstanding.
+
+AI-assisted research implementation was used in the
+development of this project.
+
+Restricted individual-level microdata are not distributed.
 
 ## Author
 
-Deeba Naveed
+**Deeba Naveed**
 
 Research interests: AI economics, labor economics,
-applied econometrics, and human capital formation.
+applied econometrics, human capital formation,
+and economic policy.
