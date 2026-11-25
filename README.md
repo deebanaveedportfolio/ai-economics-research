@@ -3,7 +3,7 @@
 
 **Independent Empirical Research | AI Economics | Labor Economics**
 
-[Read the Research Paper](AI_Economics_Writing_Sample.pdf) ·
+[Read the Research Paper](Deeba_AI_Economics_Writing_Sample.pdf) ·
 [Source Code](src/) ·
 [Empirical Results](results/) ·
 [Data Documentation](data/)
