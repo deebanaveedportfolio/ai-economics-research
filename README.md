@@ -44,7 +44,24 @@ early-career employment composition?
   across alternative specifications.
 
 ## Empirical Results
+### Principal Finding
 
+The primary specification estimates an interaction
+coefficient of -0.071 percentage points
+(95% CI: -0.608 to 0.466; p = 0.795),
+based on 28,651 occupation-month observations
+across 362 occupations.
+
+The analysis does not detect a statistically significant
+moderating relationship between occupational learning
+intensity and AI exposure.
+
+Estimates remain statistically insignificant across
+alternative weighting, occupational learning proxies,
+sample restrictions, and a pre-period placebo test.
+
+These findings should not be interpreted as evidence
+that the underlying relationship is zero.
 ### Regression Estimates and Robustness
 
 ![Regression estimates](figures/estimates.png)
